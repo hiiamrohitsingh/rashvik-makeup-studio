@@ -1,0 +1,147 @@
+:root {
+   --titleFonts: 'Playfair Display', serif;
+   --mainColor: #911439;
+   --bgDark:#efcec9;
+   --bgLight:#faefed;
+   --titleColor: #202031;
+   --whiteColor: #ffffff;
+}
+
+.bg-main{
+   background-color:var(--mainColor);
+}
+
+/* Padding */
+/* ----- top ---- */
+.pt-6{
+   padding-top:60px;
+}
+.pt-7{
+   padding-top:70px;
+}
+.pt-8{
+   padding-top:80px;
+}
+.pt-9{
+   padding-top:90px;
+}
+.pt-100{
+   padding-top:100px;
+}
+/* ----- bottom ---- */
+.pb-6{
+   padding-bottom:60px;
+}
+.pb-7{
+   padding-bottom:70px;
+}
+.pb-8{
+   padding-bottom:80px;
+}
+.pb-9{
+   padding-bottom:90px;
+}
+.pb-100{
+   padding-bottom:100px;
+}
+/* Padding end */
+
+/* Link Button */
+.link-btn{
+   padding:10px 40px;
+   display:inline-block;
+   text-decoration:none;
+   border-radius:5px;
+   color:#333333;
+   font-weight:490;
+   font-size:1.1em;
+   background-color:#ffffff;
+}
+
+.link-btn:hover{
+   background-color:var(--mainColor);
+   color:var(--whiteColor);
+}
+
+.outline-link-btn{
+   padding:10px 40px;
+   display:inline-block;
+   text-decoration:none;
+   border-radius:5px;
+   border:1px solid var(--mainColor);
+   color:var(--mainColor);
+   font-weight:490;
+   font-size:1.1em;
+   background-color:#ffffff;
+}
+/* Link Button end*/
+
+/* Section Title */
+.section-title h5,h1{
+   margin:0;
+}
+.section-title h5{
+   color:var(--mainColor);
+   margin-bottom:5px;
+}
+.section-title h1{
+   color:var(--titleColor);
+   font-family:var(--titleFonts);
+   font-weight:550;
+}
+/* Section Title end */
+
+/* Navbar */
+.navbar {
+   background-color: #ffffff;
+   position: relative;
+}
+
+.navbar .nav-link {
+   color: #202031;
+   font-size: 1.1em;
+}
+
+.navbar .nav-link:hover {
+   color: #911439;
+}
+
+.navbar .active {
+   color: #911439 !important;
+}
+
+.navbar .navbar-cta {
+   margin: 0 20px;
+   padding: 8px 16px;
+   background-color: #911439;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 600;
+}
+/* Navbar end */
+
+
+.banner{
+   background-color:var(--bgDark);
+}
+
+.banner .banner-content h1{
+   font-family:var(--titleFonts);
+   font-size:4em;
+   font-weight:550;
+}
+
+.banner .banner-content p{
+   font-size:1.2em;
+}
+
+.banner .banner-content .link-btn:hover{
+   background-color:var(--mainColor);
+   color:var(--whiteColor);
+}
+
+.banner .banner-images img{
+ display:block;
+ margin:auto;
+ width:370px;
+}
