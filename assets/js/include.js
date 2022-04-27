@@ -8,6 +8,7 @@ document.getElementById("top-time").innerText = "Everyday 10 AM to 8 PM";
 function top_info_bar_social_link_generator(a_href, img_src) {
    let a = document.createElement("a");
    a.setAttribute("href", a_href);
+   a.setAttribute("target","_blank");
    let img = document.createElement("img");
    img.setAttribute("src", img_src);
    a.append(img);
