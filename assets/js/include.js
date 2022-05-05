@@ -78,6 +78,7 @@ function navbar_nav_item_dropdown_generator(nav_link_a_text, [], []) {
 navbar_nav_item_generator("Home", "./index.html");
 navbar_nav_item_generator("Services", "./services.html");
 navbar_nav_item_generator("About US", "./about-us.html");
+navbar_nav_item_generator("Contact US", "./contact-us.html");
 
 //appening social links in footer
 social_link_generator("https://www.youtube.com/channel/UCAR1ZyrsqNt7cm7Xx-HBEjg", "./assets/images/svg-icons/color-youtube.svg","footer-socia-media-icons");
